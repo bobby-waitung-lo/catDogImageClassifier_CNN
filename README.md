@@ -20,6 +20,7 @@ cats_and_dogs
 |__ test: [1.jpg, 2.jpg ...]<br>
 </pre>
 
+
 ### 2. Details of the preprocessing steps
 
 The images are labeled with "dogs" and "cats" in train and validation datasets, while images in test dataset is not labelled.
@@ -35,6 +36,8 @@ Next, the model is trained and plots of the loss and accuracy on the training an
 ![model evaluation](https://github.com/user-attachments/assets/11b5de5b-8220-4084-b1e1-b407cbebcf23)
 
 Finally, the test images are fit to the model for cats and dogs prediction.
+
+<br>
   
 ### 3. Evaluation of results
 
@@ -46,14 +49,16 @@ Ground truth check:
 
 ![result](https://github.com/user-attachments/assets/f05a824a-966a-418f-9c72-61f687426c75)
 
-  
+<br>
+
 ### 4. Insights into the model's limitations
 
 First, the coreect percentage of classification is around 68%, which is still low of confidence in classifying cats and dogs.
 
 Second, the model consists of more than 9.5 millions parameters and it requires a huge computational power for training. Howerever, the training process and be speeded up by using GPUs or TPUs.
 
-  
+<br>
+
 ### Credits 
 
 Author: Bobby
