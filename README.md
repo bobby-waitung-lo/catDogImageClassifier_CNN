@@ -6,7 +6,7 @@ The dataset is provided by [freeCodeCamp](https://cdn.freecodecamp.org/project-d
 The Jupyter Notebook is stored in project_fcc_cat_dog.ipynb
 
 
-### 1. A description of the dataset used
+### 1. Description of the dataset used
 
 <pre>
 The structure of the dataset files:
@@ -32,14 +32,19 @@ After that, a convolution neural network model is created and compiled with Conv
 
 Next, the model is trained and plots of the loss and accuracy on the training and validation sets were observed for model evaluation.
 
-Finally, the test images are fit to the model for cats and dogs prediction.
+![model evaluation](https://github.com/user-attachments/assets/11b5de5b-8220-4084-b1e1-b407cbebcf23)
 
+Finally, the test images are fit to the model for cats and dogs prediction.
   
 ### 3. Evaluation of results
 
-Examples of plots of the images in the test sets with the probability confidence
+Examples of plots of the images in the test sets with the probability confidence:
+
+![prediction](https://github.com/user-attachments/assets/067c1d77-80d5-4303-b00d-124438555005)
 
 Ground truth check:
+
+![result](https://github.com/user-attachments/assets/f05a824a-966a-418f-9c72-61f687426c75)
 
   
 ### 4. Insights into the model's limitations
